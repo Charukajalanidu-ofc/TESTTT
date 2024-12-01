@@ -1,12 +1,12 @@
 const {
-  default: makeWASocket,
-  useMultiFileAuthState,
-  DisconnectReason,
-  getDevice,
-  fetchLatestBaileysVersion,
-  jidNormalizedUser,
-  getContentType
-} = require('@adiwajshing/baileys')
+default: makeWASocket,
+useMultiFileAuthState,
+DisconnectReason,
+jidNormalizedUser,
+getContentType,
+fetchLatestBaileysVersion,
+Browsers
+} = require('@whiskeysockets/baileys')
 const fs = require('fs')
 const P = require('pino')
 var os = require('os')
